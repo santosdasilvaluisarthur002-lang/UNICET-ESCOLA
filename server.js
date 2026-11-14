@@ -21,6 +21,7 @@ app.use('/', estudanteRoutes);
 app.use('/cursos', cursoRoutes);
 app.use('/disciplinas', disciplinaRoutes);
 app.use('/matriculas', matriculaRoutes);
+app.use('/professores', professorRoutes);
 
 app.listen(PORT, () => {
     console.log(`servidor rodando em http://localhost:${PORT}`);
